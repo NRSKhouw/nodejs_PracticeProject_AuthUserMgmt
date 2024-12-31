@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const session = require('express-session')
 const routes = require('./router/friends.js')
 
-let users = []
+let users = [{username: "ridwan_test", password: "test_123"}]
 
 // Check if a user with the given username already exists
 const doesExist = (username) => {
